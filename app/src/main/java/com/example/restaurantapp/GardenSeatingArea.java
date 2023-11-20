@@ -32,5 +32,59 @@ public class GardenSeatingArea extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageButton toG10 = findViewById(R.id.imageButton16);
+        toG10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(GardenSeatingArea.this, ReservationSummary.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton toG3 = findViewById(R.id.imageButton18);
+        toG10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(GardenSeatingArea.this, ReservationSummary.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton toG8 = findViewById(R.id.imageButton19);
+        toG10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(GardenSeatingArea.this, ReservationSummary.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton toG4 = findViewById(R.id.imageButton20);
+        toG10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(GardenSeatingArea.this, ReservationSummary.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton toG5 = findViewById(R.id.imageButton21);
+        toG10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(GardenSeatingArea.this, ReservationSummary.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton toG6 = findViewById(R.id.imageButton22);
+        toG10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(GardenSeatingArea.this, ReservationSummary.class);
+                startActivity(intent);
+            }
+        });
     }
 }

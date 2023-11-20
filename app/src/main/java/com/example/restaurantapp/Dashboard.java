@@ -30,5 +30,14 @@ public class Dashboard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageButton toSearch = findViewById(R.id.imageButton2);
+        toProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Dashboard.this, Search.class);
+                startActivity(intent);
+            }
+        });
     }
 }

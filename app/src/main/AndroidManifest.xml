@@ -73,6 +73,16 @@
         </activity>
 
         <activity
+            android:name=".Search"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".TableCustomization"
             android:exported="true">
             <intent-filter>
@@ -124,6 +134,16 @@
 
         <activity
             android:name=".OutdoorSeatingArea"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ReservationSummary"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
