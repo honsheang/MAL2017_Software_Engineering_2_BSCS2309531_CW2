@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <ScrollView
+        android:layout_width="395dp"
+        android:layout_height="630dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="331dp"
+                android:layout_height="387dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_background"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.301">
+
+                <TextView
+                    android:id="@+id/textView100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="75dp"
+                    android:layout_height="37dp"
+                    android:layout_gravity="right"
+                    android:text="Edit" />
+
+                <TextView
+                    android:id="@+id/textView101"
+                    android:layout_width="317dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Reservation"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="202dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Booking ID: " />
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="317dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Name: " />
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="317dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Email:" />
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Mobile No.: " />
+
+                <TextView
+                    android:id="@+id/textView102"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="263dp"
+                    android:layout_height="156dp"
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/rounded_background"
+                    android:backgroundTint="#EFEFEF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView103"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/textView104"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Reservation Detail" />
+
+                    <TextView
+                        android:id="@+id/textView106"
+                        android:layout_width="216dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Date:" />
+
+                    <TextView
+                        android:id="@+id/textView107"
+                        android:layout_width="216dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Meal:" />
+
+                    <TextView
+                        android:id="@+id/textView108"
+                        android:layout_width="216dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Table Size:" />
+
+                    <TextView
+                        android:id="@+id/textView109"
+                        android:layout_width="216dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Seating Area: " />
+
+                    <TextView
+                        android:id="@+id/textView110"
+                        android:layout_width="216dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Seating Area (2): " />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_background"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.301">
+
+                <TextView
+                    android:id="@+id/textView111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView112"
+                    android:layout_width="317dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Reservation History"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView113"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="263dp"
+                    android:layout_height="156dp"
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/rounded_background"
+                    android:backgroundTint="#EFEFEF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView114"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/textView115"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Reservation Detail" />
+
+                    <TextView
+                        android:id="@+id/textView116"
+                        android:layout_width="216dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Booking ID: " />
+
+                    <TextView
+                        android:id="@+id/textView117"
+                        android:layout_width="216dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Date:" />
+
+                    <TextView
+                        android:id="@+id/textView118"
+                        android:layout_width="216dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Meal:" />
+
+                    <TextView
+                        android:id="@+id/textView119"
+                        android:layout_width="216dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Table Size:" />
+
+                    <TextView
+                        android:id="@+id/textView120"
+                        android:layout_width="216dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Seating Area: " />
+
+                    <TextView
+                        android:id="@+id/textView121"
+                        android:layout_width="216dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Seating Area (2): " />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="68dp"
+        android:layout_height="61dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
+        app:srcCompat="@drawable/search_button" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="416dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/bottom_navigation__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="67dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="160dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
+        app:srcCompat="@drawable/home" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reservation"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107"
+        app:srcCompat="@drawable/divider" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="85dp"
+        android:layout_height="66dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.967"
+        app:srcCompat="@drawable/profile_button__1_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

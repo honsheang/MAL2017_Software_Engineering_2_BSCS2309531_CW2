@@ -3,7 +3,6 @@ package com.example.restaurantapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,7 +14,7 @@ public class GardenSeatingArea extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gardenseatingarea);
 
-        ImageButton toSeatingArea = findViewById(R.id.imageButton3);
+        ImageButton toSeatingArea = findViewById(R.id.imageButtonfamilyspecial);
         toSeatingArea.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,7 +51,7 @@ public class GardenSeatingArea extends AppCompatActivity {
         });
 
         ImageButton toG8 = findViewById(R.id.imageButton19);
-        toG10.setOnClickListener(new View.OnClickListener() {
+        toG8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(GardenSeatingArea.this, ReservationSummary.class);
@@ -61,7 +60,7 @@ public class GardenSeatingArea extends AppCompatActivity {
         });
 
         ImageButton toG4 = findViewById(R.id.imageButton20);
-        toG10.setOnClickListener(new View.OnClickListener() {
+        toG4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(GardenSeatingArea.this, ReservationSummary.class);
@@ -70,7 +69,7 @@ public class GardenSeatingArea extends AppCompatActivity {
         });
 
         ImageButton toG5 = findViewById(R.id.imageButton21);
-        toG10.setOnClickListener(new View.OnClickListener() {
+        toG5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(GardenSeatingArea.this, ReservationSummary.class);
@@ -79,7 +78,7 @@ public class GardenSeatingArea extends AppCompatActivity {
         });
 
         ImageButton toG6 = findViewById(R.id.imageButton22);
-        toG10.setOnClickListener(new View.OnClickListener() {
+        toG6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(GardenSeatingArea.this, ReservationSummary.class);

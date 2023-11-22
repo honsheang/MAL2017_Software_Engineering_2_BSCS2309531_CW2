@@ -14,11 +14,11 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.loginpage);
 
-        Button toDashboard = findViewById(R.id.button3);
-        toDashboard.setOnClickListener(new View.OnClickListener() {
+        Button toLoading = findViewById(R.id.button3);
+        toLoading.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Login.this, Dashboard.class);
+                Intent intent = new Intent(Login.this, LoadingPage.class);
                 startActivity(intent);
             }
         });

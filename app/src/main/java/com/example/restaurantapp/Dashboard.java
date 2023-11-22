@@ -22,7 +22,7 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
-        ImageButton toProfile = findViewById(R.id.imageButton);
+        ImageButton toProfile = findViewById(R.id.imageButtonprofile);
         toProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -31,11 +31,74 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
-        ImageButton toSearch = findViewById(R.id.imageButton2);
-        toProfile.setOnClickListener(new View.OnClickListener() {
+        ImageButton toSearch = findViewById(R.id.imageButtonSearch);
+        toSearch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Dashboard.this, Search.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton toBreakfast = findViewById(R.id.imageButtonbreakfast);
+        toBreakfast.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Dashboard.this, Profile.class);//create
+                startActivity(intent);
+            }
+        });
+
+        ImageButton toLunch = findViewById(R.id.imageButtonlunch);
+        toLunch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Dashboard.this, Profile.class);//create
+                startActivity(intent);
+            }
+        });
+
+        ImageButton toDinner = findViewById(R.id.imageButtondinner);
+        toDinner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Dashboard.this, Profile.class);//create
+                startActivity(intent);
+            }
+        });
+
+        ImageButton toBreakfastDeal = findViewById(R.id.imageButtonbreakfastspecial);
+        toBreakfastDeal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Dashboard.this, Profile.class);//create
+                startActivity(intent);
+            }
+        });
+
+        ImageButton toComboDeal = findViewById(R.id.imageButtonCombospecial);
+        toComboDeal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Dashboard.this, Profile.class);//create
+                startActivity(intent);
+            }
+        });
+
+        ImageButton toFamilyDeal = findViewById(R.id.imageButtonfamilyspecial);
+        toFamilyDeal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Dashboard.this, Profile.class);//create
+                startActivity(intent);
+            }
+        });
+
+        ImageButton toSFamilyDeal = findViewById(R.id.imageButtonSuperfamilyspecial);
+        toSFamilyDeal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Dashboard.this, Profile.class);//create
                 startActivity(intent);
             }
         });
