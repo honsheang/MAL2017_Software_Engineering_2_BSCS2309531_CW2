@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Reservation Summary"
+        android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name:"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.153"
@@ -37,6 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email:"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.152"
@@ -49,6 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Mobile No.:"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.167"
@@ -114,17 +118,22 @@
 
     <LinearLayout
         android:layout_width="329dp"
-        android:layout_height="234dp"
+        android:layout_height="293dp"
+        android:background="@drawable/rounded_background"
         android:orientation="vertical"
         android:padding="20sp"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="274dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579">
 
         <TextView
             android:id="@+id/textView40"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="10sp"
             android:text="Reservation Detail"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -134,6 +143,7 @@
             android:layout_width="272dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="10sp"
             android:text="Date:" />
 
         <TextView
@@ -141,6 +151,7 @@
             android:layout_width="272dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="10sp"
             android:text="Meal: " />
 
         <TextView
@@ -148,6 +159,7 @@
             android:layout_width="272dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="10sp"
             android:text="Table:" />
 
         <TextView
@@ -155,6 +167,7 @@
             android:layout_width="272dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="10sp"
             android:text="Seating Area:" />
 
         <TextView
@@ -162,6 +175,7 @@
             android:layout_width="272dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="10sp"
             android:text="Seating Area(2): " />
 
     </LinearLayout>

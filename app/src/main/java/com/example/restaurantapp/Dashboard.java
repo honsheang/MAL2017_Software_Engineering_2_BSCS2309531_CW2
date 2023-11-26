@@ -23,7 +23,7 @@ public class Dashboard extends AppCompatActivity {
         });
 
         ImageButton toFood = findViewById(R.id.imageButton5);
-        toTableReserve.setOnClickListener(new View.OnClickListener() {
+        toFood.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Dashboard.this, Food.class);
